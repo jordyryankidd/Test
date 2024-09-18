@@ -360,6 +360,450 @@ const questions = [
     choices: ["Dental cement", "Composite resin", "Glass ionomer", "Zinc oxide eugenol"],
     correctAnswer: "Dental cement",
     explanation: "Dental cement is used to bond indirect restorations like crowns, bridges, and inlays to the tooth structure."
+  },
+  {
+    question: "Which cranial nerve provides parasympathetic innervation to the parotid gland?",
+    choices: ["Facial nerve", "Glossopharyngeal nerve", "Trigeminal nerve", "Vagus nerve"],
+    correctAnswer: "Glossopharyngeal nerve",
+    explanation: "The glossopharyngeal nerve (CN IX) provides parasympathetic fibers to the parotid gland via the otic ganglion."
+  },
+  {
+    question: "What is the shape of the mandibular first molar's occlusal surface?",
+    choices: ["Triangular", "Trapezoidal", "Pentagonal", "Rhomboidal"],
+    correctAnswer: "Pentagonal",
+    explanation: "The occlusal surface of the mandibular first molar typically has a pentagonal shape."
+  },
+  {
+    question: "Which nerve is at risk of injury during the extraction of an impacted mandibular third molar?",
+    choices: ["Lingual nerve", "Inferior alveolar nerve", "Facial nerve", "Glossopharyngeal nerve"],
+    correctAnswer: "Inferior alveolar nerve",
+    explanation: "The inferior alveolar nerve is closely associated with the roots of the mandibular third molar and is at risk of injury during extraction."
+  },
+  {
+    question: "Which mandibular movement is primarily controlled by the lateral pterygoid muscle?",
+    choices: ["Elevation", "Retraction", "Protrusion", "Lateral deviation"],
+    correctAnswer: "Protrusion",
+    explanation: "The lateral pterygoid muscle is responsible for the protrusion of the mandible during mastication."
+  },
+  {
+    question: "Which tooth has the most complex root canal system?",
+    choices: ["Maxillary first molar", "Mandibular lateral incisor", "Maxillary canine", "Mandibular second premolar"],
+    correctAnswer: "Maxillary first molar",
+    explanation: "The maxillary first molar often has a complex root canal system, with the mesiobuccal root typically containing two canals."
+  },
+  
+  // Oral Pathology
+  {
+    question: "Which malignant neoplasm is most commonly associated with the salivary glands?",
+    choices: ["Mucoepidermoid carcinoma", "Adenoid cystic carcinoma", "Pleomorphic adenoma", "Warthin's tumor"],
+    correctAnswer: "Mucoepidermoid carcinoma",
+    explanation: "Mucoepidermoid carcinoma is the most common malignant tumor of the salivary glands, particularly the parotid gland."
+  },
+  {
+    question: "Which systemic disease is associated with pyogenic granulomas in the oral cavity?",
+    choices: ["Pregnancy", "Diabetes mellitus", "Hypertension", "Crohn's disease"],
+    correctAnswer: "Pregnancy",
+    explanation: "Pyogenic granulomas, also called 'pregnancy tumors', are common in pregnant women due to hormonal changes."
+  },
+  {
+    question: "Which oral lesion is most commonly associated with Epstein-Barr virus in HIV-positive patients?",
+    choices: ["Oral hairy leukoplakia", "Kaposi's sarcoma", "Oral candidiasis", "Primary herpetic gingivostomatitis"],
+    correctAnswer: "Oral hairy leukoplakia",
+    explanation: "Oral hairy leukoplakia, a white patch on the lateral borders of the tongue, is commonly associated with Epstein-Barr virus in immunocompromised patients."
+  },
+  {
+    question: "Which genetic disorder is associated with supernumerary teeth and multiple odontomas?",
+    choices: ["Gardner's syndrome", "Osteogenesis imperfecta", "Amelogenesis imperfecta", "Cherubism"],
+    correctAnswer: "Gardner's syndrome",
+    explanation: "Gardner's syndrome is a genetic disorder characterized by multiple colorectal polyps, osteomas, and supernumerary teeth."
+  },
+  {
+    question: "Which oral lesion presents as a radiolucent area in the mandible with a 'honeycomb' or 'soap-bubble' appearance?",
+    choices: ["Ameloblastoma", "Odontogenic keratocyst", "Cemento-osseous dysplasia", "Fibrous dysplasia"],
+    correctAnswer: "Ameloblastoma",
+    explanation: "Ameloblastoma often appears as a multilocular radiolucency with a 'honeycomb' or 'soap-bubble' appearance on radiographs."
+  },
+  
+  // Preventive Dentistry
+  {
+    question: "Which fluoride treatment has the longest-lasting effect on enamel remineralization?",
+    choices: ["Fluoride varnish", "Fluoride rinse", "Fluoride gel", "Fluoride toothpaste"],
+    correctAnswer: "Fluoride varnish",
+    explanation: "Fluoride varnish provides the longest-lasting fluoride exposure to enamel, aiding in prolonged remineralization."
+  },
+  {
+    question: "What is the maximum recommended fluoride concentration in public water systems in temperate climates?",
+    choices: ["0.7 ppm", "1.0 ppm", "1.5 ppm", "2.0 ppm"],
+    correctAnswer: "0.7 ppm",
+    explanation: "In temperate climates, the optimal fluoride concentration in drinking water to prevent caries is 0.7 parts per million (ppm)."
+  },
+  {
+    question: "Which dietary recommendation is most effective in reducing caries risk in high-risk patients?",
+    choices: ["Reduce frequency of sugar intake", "Increase protein intake", "Increase water consumption", "Increase calcium intake"],
+    correctAnswer: "Reduce frequency of sugar intake",
+    explanation: "Reducing the frequency of sugar intake is the most effective dietary modification to lower caries risk."
+  },
+  {
+    question: "What is the recommended interval for fluoride varnish application in children at high risk of dental caries?",
+    choices: ["Every 3 months", "Every 6 months", "Annually", "Every 2 years"],
+    correctAnswer: "Every 3 months",
+    explanation: "For children at high risk of dental caries, fluoride varnish should be applied every 3 months to maximize its protective effect."
+  },
+  {
+    question: "Which sealant material is considered most durable for long-term protection of occlusal surfaces?",
+    choices: ["Resin-based sealants", "Glass ionomer sealants", "Polymer-based sealants", "Amalgam sealants"],
+    correctAnswer: "Resin-based sealants",
+    explanation: "Resin-based sealants provide long-term protection of occlusal surfaces due to their superior bonding and durability."
+  },
+  
+  // Restorative Dentistry
+  {
+    question: "What is the preferred restorative material for a deep Class II cavity preparation in a high-stress posterior tooth?",
+    choices: ["Amalgam", "Composite resin", "Glass ionomer", "Gold inlay"],
+    correctAnswer: "Amalgam",
+    explanation: "Amalgam is preferred for restoring deep Class II cavities in high-stress posterior teeth due to its strength and durability."
+  },
+  {
+    question: "Which bonding agent provides the highest bond strength for composite restorations?",
+    choices: ["Total-etch", "Self-etch", "Glass ionomer", "Zinc oxide eugenol"],
+    correctAnswer: "Total-etch",
+    explanation: "Total-etch bonding agents, which use phosphoric acid to etch both enamel and dentin, provide the highest bond strength for composite restorations."
+  },
+  {
+    question: "Which restorative material is contraindicated in patients with a known allergy to nickel?",
+    choices: ["Amalgam", "Gold alloy", "Nickel-chromium alloy", "Ceramic"],
+    correctAnswer: "Nickel-chromium alloy",
+    explanation: "Nickel-chromium alloys are contraindicated in patients with a known nickel allergy, as nickel is a common allergen in dental materials."
+  },
+  {
+    question: "What is the ideal curing light wavelength for polymerizing light-cured composite resins?",
+    choices: ["320-400 nm", "400-500 nm", "450-600 nm", "600-700 nm"],
+    correctAnswer: "400-500 nm",
+    explanation: "The ideal wavelength for curing light-cured composite resins is 400-500 nm, typically provided by blue light."
+  },
+  {
+    question: "Which material is preferred for indirect restorations such as inlays and onlays in esthetic zones?",
+    choices: ["Lithium disilicate", "Amalgam", "Glass ionomer", "Nickel-chromium alloy"],
+    correctAnswer: "Lithium disilicate",
+    explanation: "Lithium disilicate is preferred for indirect restorations in esthetic zones due to its excellent esthetic properties and strength."
+  },
+  
+  // Pharmacology
+  {
+    question: "Which local anesthetic agent is associated with the lowest risk of systemic toxicity?",
+    choices: ["Lidocaine", "Bupivacaine", "Mepivacaine", "Articaine"],
+    correctAnswer: "Mepivacaine",
+    explanation: "Mepivacaine is associated with a lower risk of systemic toxicity compared to other local anesthetics such as bupivacaine."
+  },
+  {
+    question: "What is the maximum recommended dose of epinephrine for a cardiac patient receiving local anesthesia?",
+    choices: ["0.04 mg", "0.1 mg", "0.2 mg", "0.3 mg"],
+    correctAnswer: "0.04 mg",
+    explanation: "The maximum recommended dose of epinephrine for cardiac patients is 0.04 mg to avoid cardiovascular complications."
+  },
+  {
+    question: "Which antibiotic is considered first-line treatment for dental abscesses in patients allergic to penicillin?",
+    choices: ["Clindamycin", "Erythromycin", "Metronidazole", "Tetracycline"],
+    correctAnswer: "Clindamycin",
+    explanation: "Clindamycin is the antibiotic of choice for treating dental abscesses in patients with a penicillin allergy."
+  },
+  {
+    question: "Which drug is contraindicated in a patient taking a monoamine oxidase inhibitor (MAOI)?",
+    choices: ["Lidocaine with epinephrine", "Mepivacaine", "Acetaminophen", "Ibuprofen"],
+    correctAnswer: "Lidocaine with epinephrine",
+    explanation: "Epinephrine-containing local anesthetics are contraindicated in patients taking MAOIs due to the risk of hypertensive crisis."
+  },
+  {
+    question: "Which analgesic is preferred for managing dental pain in patients with a history of gastric ulcers?",
+    choices: ["Acetaminophen", "Ibuprofen", "Aspirin", "Ketorolac"],
+    correctAnswer: "Acetaminophen",
+    explanation: "Acetaminophen is preferred over NSAIDs for managing dental pain in patients with a history of gastric ulcers, as NSAIDs can exacerbate ulcer symptoms."
+  },
+  
+  // Radiology
+  {
+    question: "Which radiographic technique is most appropriate for visualizing the entire dentition in one film?",
+    choices: ["Panoramic radiography", "Periapical radiography", "Bitewing radiography", "Occlusal radiography"],
+    correctAnswer: "Panoramic radiography",
+    explanation: "Panoramic radiography provides a comprehensive view of the entire dentition, maxilla, and mandible in one image."
+  },
+  {
+    question: "Which radiographic feature is characteristic of a dentigerous cyst?",
+    choices: ["Radiolucency surrounding the crown of an unerupted tooth", "Radiopaque lesion with irregular borders", "Multilocular radiolucency", "Ground-glass appearance"],
+    correctAnswer: "Radiolucency surrounding the crown of an unerupted tooth",
+    explanation: "A dentigerous cyst appears as a radiolucency surrounding the crown of an unerupted tooth, most commonly a third molar."
+  },
+  {
+    question: "Which imaging modality is most appropriate for evaluating the extent of a mandibular fracture?",
+    choices: ["Cone-beam computed tomography (CBCT)", "Periapical radiography", "Bitewing radiography", "Occlusal radiography"],
+    correctAnswer: "Cone-beam computed tomography (CBCT)",
+    explanation: "CBCT is the imaging modality of choice for evaluating mandibular fractures, as it provides detailed three-dimensional images of the bone."
+  },
+  {
+    question: "Which radiographic technique is most effective for diagnosing interproximal caries?",
+    choices: ["Bitewing radiography", "Panoramic radiography", "Occlusal radiography", "Cephalometric radiography"],
+    correctAnswer: "Bitewing radiography",
+    explanation: "Bitewing radiography is the gold standard for diagnosing interproximal caries, providing clear images of the contact areas between teeth."
+  },
+  {
+    question: "Which radiographic sign is most suggestive of osteosarcoma in the jaw?",
+    choices: ["Sunburst appearance", "Ground-glass opacity", "Honeycomb appearance", "Cotton-wool appearance"],
+    correctAnswer: "Sunburst appearance",
+    explanation: "Osteosarcoma often presents with a 'sunburst' appearance on radiographs due to the spiculated pattern of bone growth."
+  },
+  
+  // Oral Surgery
+  {
+    question: "Which surgical instrument is commonly used for elevating mucoperiosteal flaps during oral surgery?",
+    choices: ["Molt elevator", "Periosteal elevator", "Root tip pick", "Curette"],
+    correctAnswer: "Periosteal elevator",
+    explanation: "A periosteal elevator is used to elevate mucoperiosteal flaps during oral surgery procedures."
+  },
+  {
+    question: "Which type of bone graft material is obtained from the patient's own body?",
+    choices: ["Autograft", "Allograft", "Xenograft", "Alloplast"],
+    correctAnswer: "Autograft",
+    explanation: "Autografts are bone grafts harvested from the patient's own body, usually from the iliac crest or the mandible."
+  },
+  {
+    question: "Which nerve is most commonly injured during a surgical procedure to remove an impacted mandibular third molar?",
+    choices: ["Inferior alveolar nerve", "Lingual nerve", "Facial nerve", "Mental nerve"],
+    correctAnswer: "Inferior alveolar nerve",
+    explanation: "The inferior alveolar nerve is the nerve most at risk during mandibular third molar extractions due to its proximity to the tooth roots."
+  },
+  {
+    question: "Which complication is most likely to occur following the removal of an impacted maxillary third molar?",
+    choices: ["Oroantral communication", "Trismus", "Alveolar osteitis", "Inferior alveolar nerve injury"],
+    correctAnswer: "Oroantral communication",
+    explanation: "Oroantral communication is a potential complication following the removal of an impacted maxillary third molar due to the proximity of the sinus."
+  },
+  {
+    question: "Which post-operative instruction is most effective in preventing dry socket after a tooth extraction?",
+    choices: ["Avoid smoking for at least 48 hours", "Eat solid food immediately", "Rinse with mouthwash frequently", "Apply ice directly to the extraction site"],
+    correctAnswer: "Avoid smoking for at least 48 hours",
+    explanation: "Smoking increases the risk of dry socket by dislodging the blood clot; patients are advised to avoid smoking for at least 48 hours post-extraction."
+  },
+  {
+    question: "Which branch of the trigeminal nerve provides motor innervation to the muscles of mastication?",
+    choices: ["Ophthalmic nerve", "Maxillary nerve", "Mandibular nerve", "Facial nerve"],
+    correctAnswer: "Mandibular nerve",
+    explanation: "The mandibular branch of the trigeminal nerve (V3) provides motor innervation to the muscles of mastication."
+  },
+  {
+    question: "Which tooth is most commonly associated with dens invaginatus?",
+    choices: ["Maxillary lateral incisor", "Mandibular central incisor", "Maxillary first premolar", "Mandibular first molar"],
+    correctAnswer: "Maxillary lateral incisor",
+    explanation: "Dens invaginatus, also known as dens in dente, is most commonly found in the maxillary lateral incisors."
+  },
+  {
+    question: "Which structure is located between the anterior and posterior bellies of the digastric muscle?",
+    choices: ["Submandibular gland", "Parotid gland", "Submental lymph nodes", "Hyoid bone"],
+    correctAnswer: "Hyoid bone",
+    explanation: "The hyoid bone is situated between the anterior and posterior bellies of the digastric muscle."
+  },
+  {
+    question: "What is the typical age of eruption for the maxillary first molar in permanent dentition?",
+    choices: ["6-7 years", "8-9 years", "9-10 years", "10-11 years"],
+    correctAnswer: "6-7 years",
+    explanation: "The maxillary first molar typically erupts between 6-7 years of age in permanent dentition."
+  },
+  {
+    question: "Which branch of the external carotid artery supplies blood to the maxillary teeth?",
+    choices: ["Facial artery", "Lingual artery", "Maxillary artery", "Superficial temporal artery"],
+    correctAnswer: "Maxillary artery",
+    explanation: "The maxillary artery, a branch of the external carotid artery, supplies blood to the maxillary teeth and associated structures."
+  },
+  
+  // Oral Pathology
+  {
+    question: "Which salivary gland tumor has the highest potential for malignant transformation?",
+    choices: ["Pleomorphic adenoma", "Warthin's tumor", "Mucoepidermoid carcinoma", "Adenoid cystic carcinoma"],
+    correctAnswer: "Pleomorphic adenoma",
+    explanation: "Pleomorphic adenoma is the most common benign salivary gland tumor and has the highest potential for malignant transformation."
+  },
+  {
+    question: "Which cyst is commonly associated with the crown of an unerupted tooth?",
+    choices: ["Dentigerous cyst", "Periapical cyst", "Residual cyst", "Nasopalatine duct cyst"],
+    correctAnswer: "Dentigerous cyst",
+    explanation: "A dentigerous cyst is a radiolucent lesion that forms around the crown of an unerupted tooth."
+  },
+  {
+    question: "Which of the following oral lesions is most commonly associated with human papillomavirus (HPV)?",
+    choices: ["Oral verruca vulgaris", "Oral lichen planus", "Aphthous ulcers", "Oral hairy leukoplakia"],
+    correctAnswer: "Oral verruca vulgaris",
+    explanation: "Oral verruca vulgaris is caused by human papillomavirus (HPV) and appears as a wart-like growth in the oral cavity."
+  },
+  {
+    question: "Which genetic condition is characterized by abnormal tooth shape, enamel hypoplasia, and supernumerary teeth?",
+    choices: ["Cleidocranial dysplasia", "Gardner's syndrome", "Amelogenesis imperfecta", "Cherubism"],
+    correctAnswer: "Cleidocranial dysplasia",
+    explanation: "Cleidocranial dysplasia is a genetic condition characterized by delayed tooth eruption, enamel hypoplasia, and the presence of supernumerary teeth."
+  },
+  {
+    question: "Which radiographic feature is characteristic of fibrous dysplasia of the jaw?",
+    choices: ["Ground-glass appearance", "Soap-bubble appearance", "Sunburst appearance", "Cotton-wool appearance"],
+    correctAnswer: "Ground-glass appearance",
+    explanation: "Fibrous dysplasia presents as a 'ground-glass' appearance on radiographs due to the abnormal bone formation."
+  },
+  
+  // Restorative Dentistry
+  {
+    question: "Which restorative material is contraindicated in patients with a history of bisphenol A (BPA) sensitivity?",
+    choices: ["Composite resin", "Amalgam", "Glass ionomer", "Ceramic"],
+    correctAnswer: "Composite resin",
+    explanation: "Composite resin materials may contain bisphenol A (BPA), making them unsuitable for patients with BPA sensitivity."
+  },
+  {
+    question: "Which type of indirect restoration is recommended for a patient with heavy occlusal forces in the posterior region?",
+    choices: ["Gold onlay", "Ceramic inlay", "Resin-based composite", "Zinc phosphate crown"],
+    correctAnswer: "Gold onlay",
+    explanation: "Gold onlays are highly durable and ideal for patients with heavy occlusal forces in posterior regions."
+  },
+  {
+    question: "Which type of dental cement is typically used for bonding porcelain veneers?",
+    choices: ["Resin cement", "Glass ionomer", "Zinc oxide eugenol", "Polycarboxylate cement"],
+    correctAnswer: "Resin cement",
+    explanation: "Resin cement is used for bonding porcelain veneers due to its superior adhesive properties and esthetic outcomes."
+  },
+  {
+    question: "Which type of liner is most commonly used for deep cavity preparations close to the pulp?",
+    choices: ["Calcium hydroxide", "Zinc oxide eugenol", "Glass ionomer", "Resin-modified glass ionomer"],
+    correctAnswer: "Calcium hydroxide",
+    explanation: "Calcium hydroxide is commonly used as a liner for deep cavity preparations because of its ability to stimulate dentin formation."
+  },
+  {
+    question: "Which component of composite resin is responsible for polymerization?",
+    choices: ["Initiator", "Filler particles", "Coupling agent", "Matrix"],
+    correctAnswer: "Initiator",
+    explanation: "The initiator in composite resin, typically camphorquinone, triggers polymerization when activated by light."
+  },
+  
+  // Pharmacology
+  {
+    question: "Which class of drug is most commonly used to treat neuropathic pain in dentistry?",
+    choices: ["Anticonvulsants", "Nonsteroidal anti-inflammatory drugs", "Opioids", "Antidepressants"],
+    correctAnswer: "Anticonvulsants",
+    explanation: "Anticonvulsants such as gabapentin are commonly used to manage neuropathic pain in dentistry."
+  },
+  {
+    question: "Which drug is contraindicated in a patient with a history of malignant hyperthermia?",
+    choices: ["Bupivacaine", "Lidocaine", "Nitrous oxide", "Sevoflurane"],
+    correctAnswer: "Sevoflurane",
+    explanation: "Inhalation anesthetics like sevoflurane are contraindicated in patients with a history of malignant hyperthermia due to the risk of triggering an episode."
+  },
+  {
+    question: "Which antibiotic is commonly prescribed for dental infections in pregnant women?",
+    choices: ["Amoxicillin", "Tetracycline", "Metronidazole", "Doxycycline"],
+    correctAnswer: "Amoxicillin",
+    explanation: "Amoxicillin is considered safe for use during pregnancy and is commonly prescribed for dental infections in pregnant women."
+  },
+  {
+    question: "Which antihypertensive medication may cause gingival hyperplasia?",
+    choices: ["Nifedipine", "Atenolol", "Hydrochlorothiazide", "Losartan"],
+    correctAnswer: "Nifedipine",
+    explanation: "Calcium channel blockers such as nifedipine are known to cause gingival hyperplasia as a side effect."
+  },
+  {
+    question: "What is the recommended antibiotic regimen for the prevention of infective endocarditis in a patient allergic to penicillin?",
+    choices: ["Clindamycin 600 mg", "Amoxicillin 2g", "Metronidazole 500 mg", "Doxycycline 100 mg"],
+    correctAnswer: "Clindamycin 600 mg",
+    explanation: "Clindamycin 600 mg is recommended as prophylaxis for infective endocarditis in penicillin-allergic patients before dental procedures."
+  },
+  
+  // Radiology
+  {
+    question: "Which radiographic technique is best for detecting subgingival calculus?",
+    choices: ["Bitewing radiography", "Periapical radiography", "Panoramic radiography", "Cone-beam computed tomography (CBCT)"],
+    correctAnswer: "Periapical radiography",
+    explanation: "Periapical radiography is best suited for detecting subgingival calculus due to its ability to capture the root surface and surrounding structures."
+  },
+  {
+    question: "Which radiographic finding is characteristic of Paget's disease of bone?",
+    choices: ["Cotton-wool appearance", "Ground-glass opacity", "Honeycomb appearance", "Sunburst pattern"],
+    correctAnswer: "Cotton-wool appearance",
+    explanation: "Paget's disease of bone presents with a 'cotton-wool' appearance on radiographs due to the abnormal bone remodeling."
+  },
+  {
+    question: "Which radiographic technique is preferred for visualizing the entire temporomandibular joint (TMJ)?",
+    choices: ["Panoramic radiography", "Bitewing radiography", "Cephalometric radiography", "Cone-beam computed tomography (CBCT)"],
+    correctAnswer: "Cone-beam computed tomography (CBCT)",
+    explanation: "CBCT is preferred for visualizing the TMJ due to its ability to capture three-dimensional images of the joint."
+  },
+  {
+    question: "Which condition is characterized by a 'sunburst' appearance on radiographs?",
+    choices: ["Osteosarcoma", "Fibrous dysplasia", "Ameloblastoma", "Ossifying fibroma"],
+    correctAnswer: "Osteosarcoma",
+    explanation: "Osteosarcoma often presents with a 'sunburst' pattern on radiographs due to the spiculated pattern of new bone formation."
+  },
+  {
+    question: "Which radiographic finding is most commonly associated with a radicular cyst?",
+    choices: ["Radiolucency at the apex of a non-vital tooth", "Radiopacity surrounding the crown of an impacted tooth", "Radiopaque lesion with a ground-glass appearance", "Multilocular radiolucency with soap-bubble appearance"],
+    correctAnswer: "Radiolucency at the apex of a non-vital tooth",
+    explanation: "A radicular cyst appears as a radiolucency at the apex of a non-vital tooth and is often associated with chronic periapical inflammation."
+  },
+  
+  // Oral Surgery
+  {
+    question: "Which condition is the most common cause of delayed healing after dental extractions?",
+    choices: ["Alveolar osteitis", "Infection", "Scleroderma", "Osteomyelitis"],
+    correctAnswer: "Alveolar osteitis",
+    explanation: "Alveolar osteitis, or dry socket, is the most common cause of delayed healing following dental extractions."
+  },
+  {
+    question: "Which nerve is most likely to be damaged during mandibular sagittal split osteotomy surgery?",
+    choices: ["Inferior alveolar nerve", "Lingual nerve", "Mental nerve", "Facial nerve"],
+    correctAnswer: "Inferior alveolar nerve",
+    explanation: "The inferior alveolar nerve is at risk during mandibular sagittal split osteotomy surgery due to its proximity to the surgical site."
+  },
+  {
+    question: "Which oral surgery procedure is indicated for correcting severe skeletal malocclusions?",
+    choices: ["Orthognathic surgery", "Apicoectomy", "Frenectomy", "Vestibuloplasty"],
+    correctAnswer: "Orthognathic surgery",
+    explanation: "Orthognathic surgery is performed to correct severe skeletal malocclusions by repositioning the maxilla or mandible."
+  },
+  {
+    question: "Which type of bone graft is harvested from another species, such as bovine bone?",
+    choices: ["Xenograft", "Autograft", "Allograft", "Alloplast"],
+    correctAnswer: "Xenograft",
+    explanation: "Xenografts are bone grafts harvested from another species, such as bovine bone, and are commonly used in oral surgery."
+  },
+  {
+    question: "Which post-operative complication is most commonly associated with mandibular third molar extractions?",
+    choices: ["Alveolar osteitis", "Maxillary sinus perforation", "Facial nerve injury", "Osteonecrosis"],
+    correctAnswer: "Alveolar osteitis",
+    explanation: "Alveolar osteitis, also known as dry socket, is the most common post-operative complication following mandibular third molar extractions."
+  },
+  
+  // Endodontics
+  {
+    question: "Which diagnostic test is most reliable for determining pulp vitality?",
+    choices: ["Electric pulp test", "Percussion test", "Thermal test", "Bite test"],
+    correctAnswer: "Thermal test",
+    explanation: "Thermal testing is the most reliable method for determining pulp vitality, especially when assessing the response to hot or cold stimuli."
+  },
+  {
+    question: "Which endodontic file system is most effective for cleaning and shaping curved root canals?",
+    choices: ["Nickel-titanium rotary files", "Stainless steel files", "Hand files", "Barbed broaches"],
+    correctAnswer: "Nickel-titanium rotary files",
+    explanation: "Nickel-titanium rotary files are flexible and effective at cleaning and shaping curved root canals, reducing the risk of canal transportation."
+  },
+  {
+    question: "Which material is most commonly used for obturation during root canal therapy?",
+    choices: ["Gutta-percha", "MTA", "Zinc oxide eugenol", "Calcium hydroxide"],
+    correctAnswer: "Gutta-percha",
+    explanation: "Gutta-percha is the most commonly used material for obturating the root canal system during endodontic therapy."
+  },
+  {
+    question: "Which type of resorption is most commonly associated with trauma to a tooth?",
+    choices: ["External root resorption", "Internal root resorption", "Replacement resorption", "Surface resorption"],
+    correctAnswer: "External root resorption",
+    explanation: "External root resorption is commonly associated with trauma, resulting in the loss of external root structure."
+  },
+  {
+    question: "Which condition is most likely to cause apical radiolucency in a previously treated tooth?",
+    choices: ["Chronic apical periodontitis", "Acute apical abscess", "Pulp necrosis", "Reversible pulpitis"],
+    correctAnswer: "Chronic apical periodontitis",
+    explanation: "Chronic apical periodontitis is the most likely cause of apical radiolucency in a previously treated tooth, indicating ongoing periapical inflammation."
   }
 ];
   
