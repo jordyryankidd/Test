@@ -1,48 +1,5 @@
 const questions = [
   {
-    question: "Which nerve provides sensory innervation to the lower lip?",
-    choices: ["Inferior alveolar nerve", "Lingual nerve", "Buccal nerve", "Mental nerve"],
-    correctAnswer: "Mental nerve",
-    explanation: "The mental nerve, a branch of the inferior alveolar nerve, provides sensory innervation to the lower lip."
-  },
-  {
-    question: "How many roots does a typical maxillary first molar have?",
-    choices: ["1", "2", "3", "4"],
-    correctAnswer: "3",
-    explanation: "The maxillary first molar typically has three roots: two buccal and one palatal."
-  },
-  {
-    question: "Which muscle is primarily responsible for closing the mouth?",
-    choices: ["Masseter", "Buccinator", "Temporalis", "Lateral pterygoid"],
-    correctAnswer: "Masseter",
-    explanation: "The masseter is a powerful muscle that elevates the mandible to close the mouth."
-  },
-  {
-    question: "Which tooth is most commonly congenitally missing?",
-    choices: ["Maxillary lateral incisor", "Mandibular canine", "Maxillary first premolar", "Mandibular second molar"],
-    correctAnswer: "Maxillary lateral incisor",
-    explanation: "The maxillary lateral incisor is one of the most commonly congenitally missing teeth."
-  },
-  // (Continue adding questions until you have a total of 100 questions)
-  {
-    question: "Which restorative material is best suited for esthetic anterior restorations?",
-    choices: ["Composite resin", "Amalgam", "Gold", "Porcelain"],
-    correctAnswer: "Composite resin",
-    explanation: "Composite resin is commonly used for anterior restorations due to its esthetic properties, blending with natural tooth color."
-  },
-  {
-    question: "Which dental procedure involves the removal of decayed tooth material and the placement of a restorative material?",
-    choices: ["Cavity preparation and filling", "Crown placement", "Root canal treatment", "Dental extraction"],
-    correctAnswer: "Cavity preparation and filling",
-    explanation: "Cavity preparation involves the removal of decayed tooth structure, followed by the placement of a restorative material to restore function."
-  },
-  {
-    question: "Which nerve provides sensory innervation to the lower lip?",
-    choices: ["Inferior alveolar nerve", "Lingual nerve", "Buccal nerve", "Mental nerve"],
-    correctAnswer: "Mental nerve",
-    explanation: "The mental nerve, a branch of the inferior alveolar nerve, provides sensory innervation to the lower lip."
-  },
-  {
     question: "How many roots does a typical maxillary first molar have?",
     choices: ["1", "2", "3", "4"],
     correctAnswer: "3",
@@ -153,163 +110,256 @@ const questions = [
     explanation: "Pericoronitis is often treated with irrigation of the infected area and antibiotics to clear the infection."
   },
   {
-    question: "Which vitamin deficiency is associated with angular cheilitis?",
-    choices: ["Vitamin A", "Vitamin D", "Vitamin B12", "Vitamin C"],
-    correctAnswer: "Vitamin B12",
-    explanation: "Vitamin B12 deficiency can lead to angular cheilitis, a condition characterized by inflammation at the corners of the mouth."
-  },
-
-  // Restorative Dentistry
-  {
-    question: "Which material is commonly used for dental fillings due to its durability and strength?",
-    choices: ["Amalgam", "Composite resin", "Glass ionomer", "Porcelain"],
-    correctAnswer: "Amalgam",
-    explanation: "Dental amalgam has been widely used for fillings because of its durability, strength, and cost-effectiveness."
-  },
-  {
-    question: "What is the primary function of a dental liner?",
-    choices: ["To protect the pulp", "To fill the tooth", "To bond the restoration", "To polish the restoration"],
-    correctAnswer: "To protect the pulp",
-    explanation: "A dental liner is used to protect the pulp from thermal and chemical irritation."
-  },
-  {
-    question: "Which material is commonly used for temporary crowns?",
-    choices: ["Stainless steel", "Acrylic resin", "Composite", "Ceramic"],
-    correctAnswer: "Acrylic resin",
-    explanation: "Acrylic resin is often used to make temporary crowns because it is quick to fabricate and inexpensive."
-  },
-  {
-    question: "Which restorative material is best suited for esthetic anterior restorations?",
-    choices: ["Composite resin", "Amalgam", "Gold", "Porcelain"],
-    correctAnswer: "Composite resin",
-    explanation: "Composite resin is commonly used for anterior restorations due to its esthetic properties, blending with natural tooth color."
-  },
-  {
     question: "What is the purpose of acid etching in the placement of composite restorations?",
     choices: ["To bond the restoration", "To clean the tooth surface", "To increase adhesion", "To whiten the tooth"],
     correctAnswer: "To increase adhesion",
     explanation: "Acid etching is used to increase the surface roughness of enamel, enhancing the adhesion of composite restorations."
   },
   {
-    question: "Which nerve provides sensory innervation to the lower lip?",
-    choices: ["Inferior alveolar nerve", "Lingual nerve", "Buccal nerve", "Mental nerve"],
-    correctAnswer: "Mental nerve",
-    explanation: "The mental nerve, a branch of the inferior alveolar nerve, provides sensory innervation to the lower lip."
+    question: "Which tooth has the longest root in the human dentition?",
+    choices: ["Maxillary canine", "Mandibular first molar", "Maxillary central incisor", "Maxillary second premolar"],
+    correctAnswer: "Maxillary canine",
+    explanation: "The maxillary canine has the longest root of all teeth in the human dentition."
   },
   {
-    question: "How many roots does a typical maxillary first molar have?",
+    question: "Which nerve supplies sensation to the mandibular teeth?",
+    choices: ["Inferior alveolar nerve", "Facial nerve", "Maxillary nerve", "Lingual nerve"],
+    correctAnswer: "Inferior alveolar nerve",
+    explanation: "The inferior alveolar nerve supplies sensation to all mandibular teeth."
+  },
+  {
+    question: "How many cusps does a typical mandibular second molar have?",
+    choices: ["3", "4", "5", "6"],
+    correctAnswer: "4",
+    explanation: "The mandibular second molar typically has four cusps."
+  },
+  {
+    question: "Which nerve provides sensory innervation to the anterior two-thirds of the tongue?",
+    choices: ["Glossopharyngeal nerve", "Lingual nerve", "Facial nerve", "Hypoglossal nerve"],
+    correctAnswer: "Lingual nerve",
+    explanation: "The lingual nerve, a branch of the mandibular nerve, supplies sensation to the anterior two-thirds of the tongue."
+  },
+  {
+    question: "Which muscle is responsible for retracting the tongue?",
+    choices: ["Styloglossus", "Hyoglossus", "Genioglossus", "Palatoglossus"],
+    correctAnswer: "Styloglossus",
+    explanation: "The styloglossus muscle retracts the tongue back into the oral cavity."
+  },
+  {
+    question: "How many roots does a maxillary first premolar usually have?",
     choices: ["1", "2", "3", "4"],
-    correctAnswer: "3",
-    explanation: "The maxillary first molar typically has three roots: two buccal and one palatal."
+    correctAnswer: "2",
+    explanation: "A maxillary first premolar typically has two roots."
   },
   {
-    question: "Which muscle is primarily responsible for closing the mouth?",
-    choices: ["Masseter", "Buccinator", "Temporalis", "Lateral pterygoid"],
-    correctAnswer: "Masseter",
-    explanation: "The masseter is a powerful muscle that elevates the mandible to close the mouth."
-  },
-  {
-    question: "Which tooth is most commonly congenitally missing?",
-    choices: ["Maxillary lateral incisor", "Mandibular canine", "Maxillary first premolar", "Mandibular second molar"],
-    correctAnswer: "Maxillary lateral incisor",
-    explanation: "The maxillary lateral incisor is one of the most commonly congenitally missing teeth."
-  },
-  {
-    question: "Which part of the tooth contains the blood vessels and nerves?",
+    question: "Which part of the tooth contains living cells?",
     choices: ["Enamel", "Dentin", "Pulp", "Cementum"],
     correctAnswer: "Pulp",
-    explanation: "The pulp chamber contains the tooth's blood vessels, nerves, and connective tissue."
+    explanation: "The pulp contains the blood vessels, nerves, and living cells that nourish the tooth."
   },
   {
-    question: "Which virus is associated with hand, foot, and mouth disease?",
-    choices: ["Herpes simplex virus", "Coxsackievirus", "Epstein-Barr virus", "Human papillomavirus"],
-    correctAnswer: "Coxsackievirus",
-    explanation: "Hand, foot, and mouth disease is caused by the coxsackievirus, presenting with oral ulcers and rash on hands and feet."
+    question: "Which tooth typically erupts first in primary dentition?",
+    choices: ["Maxillary central incisor", "Mandibular central incisor", "Maxillary lateral incisor", "Mandibular first molar"],
+    correctAnswer: "Mandibular central incisor",
+    explanation: "The mandibular central incisor is usually the first tooth to erupt in primary dentition."
   },
   {
-    question: "Which of the following is a premalignant condition of the oral cavity?",
-    choices: ["Oral leukoplakia", "Aphthous ulcers", "Oral lichen planus", "Candidiasis"],
-    correctAnswer: "Oral leukoplakia",
-    explanation: "Leukoplakia is considered a premalignant lesion that can potentially progress to oral cancer."
+    question: "Which salivary gland produces the most saliva during meals?",
+    choices: ["Parotid gland", "Submandibular gland", "Sublingual gland", "Minor salivary glands"],
+    correctAnswer: "Parotid gland",
+    explanation: "The parotid gland produces the most saliva during meals, secreting a serous (watery) fluid."
   },
   {
-    question: "Which condition is characterized by red, swollen gums that bleed easily?",
-    choices: ["Gingivitis", "Periodontitis", "Glossitis", "Leukoplakia"],
-    correctAnswer: "Gingivitis",
-    explanation: "Gingivitis is inflammation of the gums that results in redness, swelling, and easy bleeding, usually due to plaque buildup."
+    question: "Which teeth are referred to as the '6-year molars'?",
+    choices: ["First molars", "Second molars", "Third molars", "Premolars"],
+    correctAnswer: "First molars",
+    explanation: "The first molars, which erupt around the age of 6, are referred to as '6-year molars'."
+  },
+  
+  // Oral Pathology
+  {
+    question: "What is the primary cause of oral leukoplakia?",
+    choices: ["Tobacco use", "Alcohol consumption", "Viral infection", "Poor oral hygiene"],
+    correctAnswer: "Tobacco use",
+    explanation: "Oral leukoplakia is often associated with tobacco use, both smoking and smokeless tobacco."
   },
   {
-    question: "What is the primary cause of halitosis?",
-    choices: ["Bacterial breakdown of food particles", "Oral candidiasis", "Gingival inflammation", "Dry mouth"],
-    correctAnswer: "Bacterial breakdown of food particles",
-    explanation: "Bad breath (halitosis) is commonly caused by anaerobic bacteria in the mouth breaking down food particles."
+    question: "Which condition is characterized by desquamation and redness of the gingiva?",
+    choices: ["Pemphigus vulgaris", "Erythema multiforme", "Lichen planus", "Desquamative gingivitis"],
+    correctAnswer: "Desquamative gingivitis",
+    explanation: "Desquamative gingivitis presents with sloughing of the gingival epithelium and redness, often associated with immune-mediated conditions."
   },
   {
-    question: "Which restorative material is best suited for esthetic anterior restorations?",
-    choices: ["Composite resin", "Amalgam", "Gold", "Porcelain"],
-    correctAnswer: "Composite resin",
-    explanation: "Composite resin is commonly used for anterior restorations due to its esthetic properties, blending with natural tooth color."
-  },
-  // Continue adding more questions until you reach 100 questions
-  {
-    question: "Which dental material is most commonly used for posterior restorations due to its strength and durability?",
-    choices: ["Composite resin", "Amalgam", "Gold", "Porcelain"],
-    correctAnswer: "Amalgam",
-    explanation: "Dental amalgam is widely used for posterior restorations because of its strength, durability, and ability to withstand occlusal forces."
+    question: "Which bacterial species is primarily responsible for causing dental caries?",
+    choices: ["Streptococcus mutans", "Porphyromonas gingivalis", "Fusobacterium nucleatum", "Prevotella intermedia"],
+    correctAnswer: "Streptococcus mutans",
+    explanation: "Streptococcus mutans is the primary bacteria involved in the initiation of dental caries."
   },
   {
-    question: "Which is the primary reason for a root canal treatment?",
-    choices: ["To treat an infected or necrotic pulp", "To place a dental crown", "To close gaps between teeth", "To whiten teeth"],
-    correctAnswer: "To treat an infected or necrotic pulp",
-    explanation: "Root canal treatment is performed to remove infected or necrotic pulp tissue and save the tooth."
+    question: "What is the most common oral lesion associated with HIV?",
+    choices: ["Oral hairy leukoplakia", "Candidiasis", "Kaposi's sarcoma", "Herpes labialis"],
+    correctAnswer: "Candidiasis",
+    explanation: "Oral candidiasis is the most common oral lesion associated with HIV, often occurring due to immune suppression."
   },
   {
-    question: "What is the recommended fluoride concentration in toothpaste for adults with moderate to high caries risk?",
-    choices: ["1000 ppm", "1450 ppm", "5000 ppm", "6000 ppm"],
+    question: "Which of the following is the most common cause of angular cheilitis?",
+    choices: ["Candida infection", "Herpes simplex virus", "Bacterial infection", "Vitamin B12 deficiency"],
+    correctAnswer: "Candida infection",
+    explanation: "Angular cheilitis is most commonly caused by a fungal infection with Candida species, often in conjunction with Staphylococcus aureus."
+  },
+  {
+    question: "Which oral condition presents as a 'geographic' map-like appearance on the tongue?",
+    choices: ["Geographic tongue", "Lichen planus", "Oral candidiasis", "Leukoplakia"],
+    correctAnswer: "Geographic tongue",
+    explanation: "Geographic tongue appears as areas of erythema on the tongue, bordered by white margins, and changes in shape over time."
+  },
+  {
+    question: "Which virus is primarily responsible for causing oral cold sores?",
+    choices: ["Herpes simplex virus type 1", "Epstein-Barr virus", "Cytomegalovirus", "Varicella-zoster virus"],
+    correctAnswer: "Herpes simplex virus type 1",
+    explanation: "Herpes simplex virus type 1 (HSV-1) causes oral cold sores, commonly known as herpes labialis."
+  },
+  {
+    question: "Which condition is characterized by a white lesion on the lateral border of the tongue in immunocompromised patients?",
+    choices: ["Oral hairy leukoplakia", "Oral lichen planus", "Geographic tongue", "Oral candidiasis"],
+    correctAnswer: "Oral hairy leukoplakia",
+    explanation: "Oral hairy leukoplakia is caused by Epstein-Barr virus and is typically seen in immunocompromised patients, particularly those with HIV."
+  },
+  {
+    question: "What is the most common benign tumor of the salivary glands?",
+    choices: ["Pleomorphic adenoma", "Warthin's tumor", "Mucoepidermoid carcinoma", "Adenoid cystic carcinoma"],
+    correctAnswer: "Pleomorphic adenoma",
+    explanation: "Pleomorphic adenoma is the most common benign tumor of the salivary glands."
+  },
+  {
+    question: "Which condition is associated with painful ulcers in the oral mucosa that recur periodically?",
+    choices: ["Aphthous stomatitis", "Leukoplakia", "Candidiasis", "Oral lichen planus"],
+    correctAnswer: "Aphthous stomatitis",
+    explanation: "Aphthous stomatitis presents as recurrent, painful ulcers in the oral mucosa, commonly known as canker sores."
+  },
+
+  // Preventive Dentistry
+  {
+    question: "What is the primary role of fluoride in preventing dental caries?",
+    choices: ["Remineralization", "Tooth whitening", "Desensitization", "Plaque reduction"],
+    correctAnswer: "Remineralization",
+    explanation: "Fluoride helps prevent dental caries by promoting remineralization of tooth enamel."
+  },
+  {
+    question: "Which habit is most likely to lead to tooth erosion?",
+    choices: ["Frequent consumption of acidic beverages", "Brushing too often", "Eating sugary foods", "Using mouthwash"],
+    correctAnswer: "Frequent consumption of acidic beverages",
+    explanation: "Frequent consumption of acidic beverages, such as soda and citrus drinks, can erode tooth enamel over time."
+  },
+  {
+    question: "Which oral hygiene practice is most effective in preventing interproximal caries?",
+    choices: ["Flossing", "Brushing twice a day", "Using mouthwash", "Chewing sugar-free gum"],
+    correctAnswer: "Flossing",
+    explanation: "Flossing is the most effective method for cleaning interproximal spaces between teeth and preventing interproximal caries."
+  },
+  {
+    question: "What is the recommended concentration of fluoride in toothpaste for adults at high risk for dental caries?",
+    choices: ["500 ppm", "1000 ppm", "1500 ppm", "5000 ppm"],
     correctAnswer: "5000 ppm",
-    explanation: "For adults with moderate to high caries risk, fluoride toothpaste with a concentration of 5000 ppm is recommended."
+    explanation: "For adults at high risk for dental caries, fluoride toothpaste with a concentration of 5000 ppm is recommended."
   },
   {
-    question: "Which vitamin is essential for preventing gingival bleeding?",
-    choices: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+    question: "Which food is most likely to contribute to dental caries?",
+    choices: ["Sticky, sugary foods", "Leafy green vegetables", "Nuts", "Cheese"],
+    correctAnswer: "Sticky, sugary foods",
+    explanation: "Sticky, sugary foods adhere to the teeth and provide a substrate for bacteria, leading to the development of dental caries."
+  },
+  {
+    question: "Which vitamin is essential for maintaining healthy gingiva and preventing scurvy?",
+    choices: ["Vitamin A", "Vitamin D", "Vitamin C", "Vitamin E"],
     correctAnswer: "Vitamin C",
-    explanation: "Vitamin C is essential for maintaining healthy connective tissue and preventing gingival bleeding."
+    explanation: "Vitamin C is essential for the formation of collagen and the maintenance of healthy gingiva, preventing conditions like scurvy."
   },
   {
-    question: "Which of the following radiographic techniques is best for visualizing a horizontal fracture of the mandible?",
-    choices: ["Occlusal", "Periapical", "Panoramic", "Bitewing"],
-    correctAnswer: "Panoramic",
-    explanation: "A panoramic radiograph provides a broad view of the mandible and is useful for diagnosing fractures."
+    question: "What is the optimal frequency for routine dental check-ups for patients with good oral health?",
+    choices: ["Every 3 months", "Every 6 months", "Annually", "Every 2 years"],
+    correctAnswer: "Every 6 months",
+    explanation: "Patients with good oral health are typically recommended to have routine dental check-ups every 6 months."
   },
   {
-    question: "What is the most common cause of dry socket after a tooth extraction?",
-    choices: ["Poor blood clot formation", "Excessive rinsing", "Infection", "Tobacco use"],
-    correctAnswer: "Poor blood clot formation",
-    explanation: "Dry socket occurs when the blood clot at the extraction site dislodges or doesn't form properly."
+    question: "Which food helps neutralize acid in the mouth and is considered protective against dental caries?",
+    choices: ["Cheese", "Citrus fruits", "Candies", "Crackers"],
+    correctAnswer: "Cheese",
+    explanation: "Cheese helps neutralize acid in the mouth and increases saliva production, offering protection against dental caries."
   },
   {
-    question: "What is the recommended treatment for a dental abscess in a patient allergic to penicillin?",
-    choices: ["Clindamycin", "Amoxicillin", "Metronidazole", "Cephalexin"],
-    correctAnswer: "Clindamycin",
-    explanation: "Clindamycin is a suitable alternative antibiotic for treating dental abscesses in patients with a penicillin allergy."
+    question: "What is the purpose of pit and fissure sealants?",
+    choices: ["Prevent dental caries", "Strengthen enamel", "Reduce tooth sensitivity", "Whiten teeth"],
+    correctAnswer: "Prevent dental caries",
+    explanation: "Pit and fissure sealants are applied to the chewing surfaces of molars to seal off deep grooves and prevent dental caries."
   },
   {
-    question: "Which nerve is primarily responsible for innervating the muscles of mastication?",
-    choices: ["Facial nerve", "Mandibular nerve", "Glossopharyngeal nerve", "Hypoglossal nerve"],
-    correctAnswer: "Mandibular nerve",
-    explanation: "The mandibular nerve, a branch of the trigeminal nerve, innervates the muscles of mastication."
+    question: "What is the main dietary recommendation for reducing the risk of dental caries?",
+    choices: ["Reduce sugar intake", "Increase protein intake", "Increase fiber intake", "Avoid acidic foods"],
+    correctAnswer: "Reduce sugar intake",
+    explanation: "Reducing sugar intake is the most important dietary recommendation for lowering the risk of developing dental caries."
+  },
+
+  // Restorative Dentistry
+  {
+    question: "Which restorative material releases fluoride over time?",
+    choices: ["Glass ionomer", "Composite resin", "Amalgam", "Gold"],
+    correctAnswer: "Glass ionomer",
+    explanation: "Glass ionomer releases fluoride over time, which helps prevent secondary caries."
   },
   {
-    question: "Which dental instrument is used to measure pocket depth around a tooth?",
-    choices: ["Scaler", "Curette", "Periodontal probe", "Explorer"],
-    correctAnswer: "Periodontal probe",
-    explanation: "A periodontal probe is used to measure the depth of periodontal pockets around teeth."
+    question: "Which restorative material is commonly used for esthetic anterior restorations?",
+    choices: ["Composite resin", "Amalgam", "Gold", "Glass ionomer"],
+    correctAnswer: "Composite resin",
+    explanation: "Composite resin is commonly used for anterior restorations because of its tooth-colored appearance and esthetics."
   },
   {
-    question: "What is the function of fluoride in preventing dental caries?",
-    choices: ["Whitening teeth", "Strengthening enamel", "Desensitizing dentin", "Reducing plaque"],
-    correctAnswer: "Strengthening enamel",
-    explanation: "Fluoride helps prevent dental caries by strengthening the enamel and making it more resistant to acid attacks."
+    question: "Which component is used in composite restorations to increase adhesion to enamel?",
+    choices: ["Etchant", "Sealant", "Fluoride", "Calcium hydroxide"],
+    correctAnswer: "Etchant",
+    explanation: "An etchant, typically phosphoric acid, is used to roughen the enamel surface, improving adhesion of composite restorations."
+  },
+  {
+    question: "Which dental material is commonly used for temporary fillings?",
+    choices: ["Zinc oxide eugenol", "Composite resin", "Amalgam", "Glass ionomer"],
+    correctAnswer: "Zinc oxide eugenol",
+    explanation: "Zinc oxide eugenol is commonly used for temporary fillings because of its soothing properties on the pulp."
+  },
+  {
+    question: "Which restorative material is best suited for posterior restorations due to its strength and durability?",
+    choices: ["Amalgam", "Composite resin", "Gold", "Porcelain"],
+    correctAnswer: "Amalgam",
+    explanation: "Amalgam is commonly used for posterior restorations because of its strength, durability, and ability to withstand chewing forces."
+  },
+  {
+    question: "What is the primary purpose of using a dental liner in deep cavity preparations?",
+    choices: ["To protect the pulp", "To increase adhesion", "To reduce sensitivity", "To enhance esthetics"],
+    correctAnswer: "To protect the pulp",
+    explanation: "A dental liner is used to protect the pulp from thermal and chemical irritation in deep cavity preparations."
+  },
+  {
+    question: "Which instrument is used to smooth and shape amalgam restorations?",
+    choices: ["Burnisher", "Explorer", "Scaler", "Curette"],
+    correctAnswer: "Burnisher",
+    explanation: "A burnisher is used to smooth and shape amalgam restorations after placement."
+  },
+  {
+    question: "Which restorative material is most suitable for inlays and onlays?",
+    choices: ["Gold", "Composite resin", "Amalgam", "Acrylic resin"],
+    correctAnswer: "Gold",
+    explanation: "Gold is a highly durable material commonly used for inlays and onlays due to its longevity and fit."
+  },
+  {
+    question: "Which procedure is recommended for restoring a tooth with extensive decay and structural damage?",
+    choices: ["Crown", "Filling", "Sealant", "Veneer"],
+    correctAnswer: "Crown",
+    explanation: "A crown is recommended for restoring a tooth with extensive decay or damage that cannot be adequately restored with a filling."
+  },
+  {
+    question: "Which material is commonly used to bond indirect restorations, such as crowns, to teeth?",
+    choices: ["Dental cement", "Composite resin", "Glass ionomer", "Zinc oxide eugenol"],
+    correctAnswer: "Dental cement",
+    explanation: "Dental cement is used to bond indirect restorations like crowns, bridges, and inlays to the tooth structure."
   }
 ];
   
