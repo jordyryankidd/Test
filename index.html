@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oxford Handbook of Clinical Dentistry MCQs</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Oxford Handbook of Clinical Dentistry - MCQ Practice</title>
 
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Oxford Handbook of Clinical Dentistry - MCQ Practice</h1>
+
   <div id="quizContainer">
-    <form id="quizForm"></form>
+    <!-- Progress bar container -->
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+
+    <!-- Quiz form where questions will be dynamically added -->
+    <form id="quizForm" onsubmit="return false;">
+    </form>
+
+    <!-- Result display -->
     <p id="result"></p>
+
+    <!-- Retake button -->
     <button id="retakeButton" style="display:none;">Retake Test</button>
   </div>
-  
+
+  <!-- Link to the JavaScript file -->
   <script src="scripts.js"></script>
 </body>
 </html>
