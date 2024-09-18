@@ -1,0 +1,150 @@
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Styling for the quiz container */
+#quizContainer {
+  background-color: #ffffff;
+  width: 70%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+/* Styling the question headers */
+h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling for the question text */
+.question {
+  margin-bottom: 20px;
+}
+
+/* Styling the form labels for answers */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #444;
+  cursor: pointer;
+}
+
+/* Input elements styling */
+input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Styling the submit button */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Styling for the result section */
+#result {
+  background-color: #e74c3c;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  display: none;  /* Hidden until results are displayed */
+}
+
+/* Styling the retake button */
+#retakeButton {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 1em;
+  display: none; /* Hidden until the user finishes the quiz */
+}
+
+/* Hover effect for the retake button */
+#retakeButton:hover {
+  background-color: #27ae60;
+}
+
+/* General spacing for better readability */
+form {
+  margin-bottom: 30px;
+}
+Step 3: Link the CSS File in Your HTML
+In your HTML file (index.html), link the new styles.css file by adding this line in the <head> section:
+
+html
+Copy code
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oxford Handbook of Clinical Dentistry MCQs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+Step 4: Adding a Responsive Layout (Optional)
+If you want your quiz to be responsive (adjustable for mobile screens), you can add a simple media query to your CSS:
+
+css
+Copy code
+/* For smaller screens, reduce the width of the quiz container */
+@media (max-width: 768px) {
+  #quizContainer {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 0.9em;
+  }
+}
+Step 5: Enhancing the JavaScript (Optional)
+To make the quiz more interactive, you could add a progress bar or a visual effect when a user selects an answer.
+
+Here’s an example of how you might highlight the selected answer using JavaScript:
+
+javascript
+Copy code
+// Function to handle answer selection highlighting
+document.querySelectorAll('input[type="radio"]').forEach((input) => {
+  input.addEventListener('change', (e) => {
+    // Remove highlight from other answers in the same question
+    const questionDiv = e.target.closest('.question');
+    questionDiv.querySelectorAll('label').forEach((label) => {
+      label.style.backgroundColor = 'transparent';
+    });
+
+    // Highlight selected answer
+    e.target.closest('label').style.backgroundColor = '#ecf0f1';
+  });
+});
