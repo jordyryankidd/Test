@@ -804,6 +804,196 @@ const questions = [
     choices: ["Chronic apical periodontitis", "Acute apical abscess", "Pulp necrosis", "Reversible pulpitis"],
     correctAnswer: "Chronic apical periodontitis",
     explanation: "Chronic apical periodontitis is the most likely cause of apical radiolucency in a previously treated tooth, indicating ongoing periapical inflammation."
+  },
+  {
+    question: "Which nerve is most commonly injured during the extraction of a mandibular third molar?",
+    choices: ["Inferior alveolar nerve", "Lingual nerve", "Mental nerve", "Buccal nerve"],
+    correctAnswer: "Inferior alveolar nerve",
+    explanation: "The inferior alveolar nerve is at risk of injury during the extraction of mandibular third molars due to its proximity to the roots."
+  },
+  {
+    question: "Which condition is characterized by a severe infection of the floor of the mouth and is a dental emergency?",
+    choices: ["Ludwig's angina", "Periapical abscess", "Cavernous sinus thrombosis", "Submandibular cellulitis"],
+    correctAnswer: "Ludwig's angina",
+    explanation: "Ludwig's angina is a severe cellulitis involving the submandibular, submental, and sublingual spaces, leading to airway obstruction."
+  },
+  {
+    question: "Which surgical procedure involves repositioning the mandibular or maxillary bone to correct skeletal malocclusion?",
+    choices: ["Orthognathic surgery", "Apicoectomy", "Frenectomy", "Vestibuloplasty"],
+    correctAnswer: "Orthognathic surgery",
+    explanation: "Orthognathic surgery is used to reposition the maxilla or mandible to correct skeletal malocclusions."
+  },
+  {
+    question: "Which type of sutures is most commonly used for oral surgery due to its ability to dissolve over time?",
+    choices: ["Vicryl sutures", "Silk sutures", "Prolene sutures", "Nylon sutures"],
+    correctAnswer: "Vicryl sutures",
+    explanation: "Vicryl sutures are absorbable and commonly used in oral surgery because they dissolve over time and do not require removal."
+  },
+  {
+    question: "Which condition is associated with a 'floating tooth' appearance on radiographs and results from aggressive periodontitis?",
+    choices: ["Langerhans cell histiocytosis", "Ameloblastoma", "Cherubism", "Fibrous dysplasia"],
+    correctAnswer: "Langerhans cell histiocytosis",
+    explanation: "Langerhans cell histiocytosis presents with bone destruction that causes teeth to appear 'floating' on radiographs."
+  },
+  
+  // Prosthodontics
+  {
+    question: "Which is the most common cause of a fractured porcelain crown?",
+    choices: ["Occlusal overload", "Inadequate tooth preparation", "Insufficient cement", "Faulty impression technique"],
+    correctAnswer: "Occlusal overload",
+    explanation: "Occlusal overload is the most common cause of fractured porcelain crowns, as excessive forces on the crown can lead to failure."
+  },
+  {
+    question: "Which occlusal scheme is preferred for complete dentures?",
+    choices: ["Balanced occlusion", "Group function", "Canine guidance", "Mutually protected occlusion"],
+    correctAnswer: "Balanced occlusion",
+    explanation: "Balanced occlusion is preferred in complete dentures to ensure even contact between the upper and lower teeth in all excursions."
+  },
+  {
+    question: "Which type of impression material is commonly used for final impressions in crown and bridge work?",
+    choices: ["Polyvinyl siloxane", "Alginate", "Zinc oxide eugenol", "Polyether"],
+    correctAnswer: "Polyvinyl siloxane",
+    explanation: "Polyvinyl siloxane is widely used for final impressions in crown and bridge work due to its high accuracy and dimensional stability."
+  },
+  {
+    question: "What is the main disadvantage of using zirconia for fixed dental prostheses?",
+    choices: ["Brittleness", "Lack of esthetics", "High cost", "Incompatibility with cement"],
+    correctAnswer: "High cost",
+    explanation: "The main disadvantage of zirconia is its high cost, although it offers excellent strength and esthetics for fixed dental prostheses."
+  },
+  {
+    question: "Which type of pontic design is recommended for areas with high esthetic demands in fixed partial dentures?",
+    choices: ["Modified ridge lap", "Ovate pontic", "Sanitary pontic", "Conical pontic"],
+    correctAnswer: "Ovate pontic",
+    explanation: "Ovate pontics are recommended in areas with high esthetic demands because they create the appearance of a tooth emerging from the gingiva."
+  },
+  
+  // Periodontics
+  {
+    question: "Which condition is characterized by the destruction of alveolar bone, deep periodontal pockets, and tooth mobility in young patients?",
+    choices: ["Aggressive periodontitis", "Chronic periodontitis", "Gingivitis", "Peri-implantitis"],
+    correctAnswer: "Aggressive periodontitis",
+    explanation: "Aggressive periodontitis involves rapid destruction of the periodontal attachment and alveolar bone in otherwise healthy young patients."
+  },
+  {
+    question: "Which grafting procedure is most commonly used for treating gingival recession?",
+    choices: ["Connective tissue graft", "Free gingival graft", "Alloderm graft", "Pedicle graft"],
+    correctAnswer: "Connective tissue graft",
+    explanation: "Connective tissue grafting is commonly used for root coverage procedures to treat gingival recession and restore the gingival contour."
+  },
+  {
+    question: "Which periodontal condition is associated with necrosis of gingival tissues, pain, and a 'punched-out' appearance of interdental papillae?",
+    choices: ["Necrotizing ulcerative gingivitis", "Aggressive periodontitis", "Chronic gingivitis", "Peri-implant mucositis"],
+    correctAnswer: "Necrotizing ulcerative gingivitis",
+    explanation: "Necrotizing ulcerative gingivitis (NUG) presents with necrosis of gingival tissues, pain, and a 'punched-out' appearance of the papillae."
+  },
+  {
+    question: "Which bacterium is primarily associated with aggressive periodontitis?",
+    choices: ["Aggregatibacter actinomycetemcomitans", "Porphyromonas gingivalis", "Fusobacterium nucleatum", "Treponema denticola"],
+    correctAnswer: "Aggregatibacter actinomycetemcomitans",
+    explanation: "Aggregatibacter actinomycetemcomitans is primarily associated with aggressive periodontitis, particularly in younger patients."
+  },
+  {
+    question: "Which type of periodontal surgery involves reshaping the bone to eliminate osseous defects?",
+    choices: ["Osseous recontouring", "Flap surgery", "Gingivectomy", "Guided tissue regeneration"],
+    correctAnswer: "Osseous recontouring",
+    explanation: "Osseous recontouring is a periodontal surgical procedure used to reshape the alveolar bone to eliminate osseous defects and achieve a more favorable contour."
+  },
+  
+  // Pathology
+  {
+    question: "Which condition is characterized by numerous small abscesses within the soft tissues and sinus tracts that drain pus?",
+    choices: ["Actinomycosis", "Periapical abscess", "Osteomyelitis", "Chronic apical periodontitis"],
+    correctAnswer: "Actinomycosis",
+    explanation: "Actinomycosis is a chronic bacterial infection characterized by abscesses and draining sinus tracts that discharge pus."
+  },
+  {
+    question: "Which malignant tumor of the jaw is associated with a 'sunburst' radiographic appearance?",
+    choices: ["Osteosarcoma", "Ameloblastoma", "Langerhans cell histiocytosis", "Chondrosarcoma"],
+    correctAnswer: "Osteosarcoma",
+    explanation: "Osteosarcoma often presents with a 'sunburst' radiographic appearance due to aggressive bone formation."
+  },
+  {
+    question: "Which salivary gland tumor is known for its slow growth but a high tendency for perineural invasion?",
+    choices: ["Adenoid cystic carcinoma", "Mucoepidermoid carcinoma", "Pleomorphic adenoma", "Warthin's tumor"],
+    correctAnswer: "Adenoid cystic carcinoma",
+    explanation: "Adenoid cystic carcinoma is a slow-growing but aggressive salivary gland tumor with a high tendency for perineural invasion."
+  },
+  {
+    question: "Which oral lesion presents as white patches that cannot be rubbed off and is considered premalignant?",
+    choices: ["Leukoplakia", "Oral lichen planus", "Candidiasis", "Geographic tongue"],
+    correctAnswer: "Leukoplakia",
+    explanation: "Leukoplakia presents as white patches that cannot be rubbed off and is considered a premalignant lesion."
+  },
+  {
+    question: "Which cyst is most likely to develop from the remnants of the dental lamina and is often associated with impacted teeth?",
+    choices: ["Odontogenic keratocyst", "Dentigerous cyst", "Residual cyst", "Nasopalatine duct cyst"],
+    correctAnswer: "Odontogenic keratocyst",
+    explanation: "Odontogenic keratocysts develop from the remnants of the dental lamina and often occur in association with impacted teeth."
+  },
+  
+  // Radiology
+  {
+    question: "Which radiographic technique is most appropriate for evaluating interproximal caries in posterior teeth?",
+    choices: ["Bitewing radiography", "Periapical radiography", "Panoramic radiography", "Occlusal radiography"],
+    correctAnswer: "Bitewing radiography",
+    explanation: "Bitewing radiographs are the most appropriate technique for evaluating interproximal caries in posterior teeth."
+  },
+  {
+    question: "Which radiographic technique is used to visualize sialoliths within the major salivary glands?",
+    choices: ["Sialography", "Periapical radiography", "Bitewing radiography", "Panoramic radiography"],
+    correctAnswer: "Sialography",
+    explanation: "Sialography is a radiographic technique used to visualize the major salivary glands and detect sialoliths (salivary stones)."
+  },
+  {
+    question: "Which condition is associated with a 'ground-glass' appearance on radiographs?",
+    choices: ["Fibrous dysplasia", "Ameloblastoma", "Paget's disease", "Osteosarcoma"],
+    correctAnswer: "Fibrous dysplasia",
+    explanation: "Fibrous dysplasia presents with a 'ground-glass' appearance on radiographs due to abnormal bone development."
+  },
+  {
+    question: "Which radiographic technique provides a three-dimensional view of the maxillofacial skeleton and is useful for implant planning?",
+    choices: ["Cone-beam computed tomography (CBCT)", "Panoramic radiography", "Bitewing radiography", "Cephalometric radiography"],
+    correctAnswer: "Cone-beam computed tomography (CBCT)",
+    explanation: "CBCT provides three-dimensional images of the maxillofacial skeleton and is particularly useful for implant planning and evaluation of complex anatomy."
+  },
+  {
+    question: "Which type of radiolucent lesion presents with a 'honeycomb' or 'soap-bubble' appearance on radiographs?",
+    choices: ["Ameloblastoma", "Odontogenic keratocyst", "Central giant cell granuloma", "Fibrous dysplasia"],
+    correctAnswer: "Ameloblastoma",
+    explanation: "Ameloblastoma often presents as a multilocular radiolucency with a 'honeycomb' or 'soap-bubble' appearance on radiographs."
+  },
+  
+  // Orthodontics
+  {
+    question: "Which class of malocclusion is characterized by a mesial relationship of the mandibular first molar relative to the maxillary first molar?",
+    choices: ["Class III malocclusion", "Class I malocclusion", "Class II malocclusion", "Class IV malocclusion"],
+    correctAnswer: "Class III malocclusion",
+    explanation: "Class III malocclusion is characterized by a mesial relationship of the mandibular first molar relative to the maxillary first molar, often associated with mandibular prognathism."
+  },
+  {
+    question: "Which orthodontic appliance is used to expand the maxillary arch?",
+    choices: ["Palatal expander", "Headgear", "Hawley retainer", "Functional appliance"],
+    correctAnswer: "Palatal expander",
+    explanation: "A palatal expander is used to widen the maxillary arch by applying lateral forces to the palate."
+  },
+  {
+    question: "Which orthodontic movement is most difficult to achieve with clear aligners?",
+    choices: ["Root torque", "Extrusion", "Rotation", "Intrusion"],
+    correctAnswer: "Root torque",
+    explanation: "Root torque, which involves tipping the root of the tooth, is more difficult to achieve with clear aligners compared to traditional braces."
+  },
+  {
+    question: "Which type of orthodontic retainer is fixed to the lingual surfaces of the anterior teeth?",
+    choices: ["Bonded retainer", "Hawley retainer", "Essix retainer", "Functional appliance"],
+    correctAnswer: "Bonded retainer",
+    explanation: "A bonded retainer is fixed to the lingual surfaces of the anterior teeth to maintain alignment after orthodontic treatment."
+  },
+  {
+    question: "Which skeletal pattern is associated with a long lower facial height and an increased mandibular plane angle?",
+    choices: ["Dolichofacial pattern", "Brachyfacial pattern", "Mesofacial pattern", "Prognathic pattern"],
+    correctAnswer: "Dolichofacial pattern",
+    explanation: "Dolichofacial individuals have a long lower facial height and an increased mandibular plane angle, often associated with vertical growth patterns."
   }
 ];
   
