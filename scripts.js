@@ -1044,11 +1044,11 @@ function displayQuiz() {
 // Function to grade the quiz
 function gradeQuiz(event) {
   event.preventDefault();
-  
+
   let score = 0;
   let explanations = "";
   const formData = new FormData(document.getElementById('quizForm'));
-  
+
   questions.slice(0, 100).forEach((question, index) => {
     const userAnswer = formData.get(`q${index}`);
     if (userAnswer === question.correctAnswer) {
@@ -1057,12 +1057,13 @@ function gradeQuiz(event) {
       explanations += `<p>Question ${index + 1}: The correct answer is <strong>${question.correctAnswer}</strong>. ${question.explanation}</p>`;
     }
   });
-  
+
   const totalQuestions = 100;  // Assuming we're displaying 100 questions
   const result = document.getElementById('result');
-  result.innerHTML = `You scored ${score} out of ${totalQuestions}. ${explanations}`;
+  result.innerHTML = `You scored ${score} out of ${totalQuestions}.<br>${explanations}`;
   
-  document.getElementById('retakeButton').style.display = 'block';  // Show retake button
+  // Show retake button
+  document.getElementById('retakeButton').style.display = 'block';
 }
 
 // Function to retake the quiz
