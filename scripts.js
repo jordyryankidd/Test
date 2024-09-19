@@ -1043,12 +1043,13 @@ function displayQuiz() {
 
 // Function to grade the quiz
 function gradeQuiz(event) {
-  event.preventDefault();
+  event.preventDefault(); // Prevent form submission
 
   let score = 0;
   let explanations = "";
   const formData = new FormData(document.getElementById('quizForm'));
-
+  
+  // Process answers
   questions.slice(0, 100).forEach((question, index) => {
     const userAnswer = formData.get(`q${index}`);
     if (userAnswer === question.correctAnswer) {
@@ -1061,6 +1062,7 @@ function gradeQuiz(event) {
   const totalQuestions = 100;  // Assuming we're displaying 100 questions
   const result = document.getElementById('result');
   result.innerHTML = `You scored ${score} out of ${totalQuestions}.<br>${explanations}`;
+  result.style.display = 'block';  // Ensure the result is visible
   
   // Show retake button
   document.getElementById('retakeButton').style.display = 'block';
