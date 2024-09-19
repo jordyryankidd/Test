@@ -132,3 +132,11 @@ button:hover {
     padding: 10px 15px;
   }
 }
+#result p {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
